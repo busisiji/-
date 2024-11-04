@@ -1,0 +1,6 @@
+conda activate PyqtTest && pyinstaller --name=start main.py --add-data "core:core" --add-data "data:data" --add-data "icon:icon" --add-data "images:images" --add-data "lib:lib" --add-data "log:log" --add-data "temporary:temporary" --add-data "ui:ui" --add-data "main.db:." -p D:\anaconda3\envs\PyqtTest\Lib\site-packages --hidden-import=platformdirs -i logo.ico 
+
+conda activate PyqtTest && pyinstaller --name=start main.py --add-data "core:core" --add-data "data:data" --add-data "icon:icon" --add-data "images:images" --add-data "lib:lib" --add-data "log:log" --add-data "temporary:temporary" --add-data "ui:ui" --add-data "main.db:." -p C:\Users\Admin\anaconda3\envs\PyqtTest\Lib\site-packages --hidden-import=platformdirs -i logo.ico
+--runtime-hook hook.py
+
+ --noconsole  --contents-directory .
